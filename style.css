@@ -1,0 +1,113 @@
+* {
+    margin: 2px;
+    padding: 5px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right, #0b75cc, #62adf3) border-box;
+    color: #ffffff;
+    padding: 2px;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #0b75cc;
+}
+
+h2 {
+    color: #64ace7;
+}
+
+body {
+    color: white;
+    background-color: #181818;
+}
+
+
+.modal-content {
+    width: 100vh;
+    margin: 10vh;
+    padding: 1px;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding-bottom: 15px;
+    position: relative;
+    background-image: linear-gradient(to top, #262626 0px, #404040 10px, #262626 10px, #333 100%);
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:after {
+    content: "";
+    width: 0;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    transition: all 0.35s ease 0s;
+}
+
+.btn:hover:after {
+    width: 100%;
+}
+
+.btn:hover:after {
+    width: 100%;
+}
+
+.btn.btn-xs {
+    padding-bottom: 8px;
+    background-image: linear-gradient(to top, #214ea0 0px, #34599e 6px, #48659b 6px, #3567c4 100%);
+}
+
+.btn.btn-xs:after {
+    height: 6px;
+}
+
+.btn.red:after {
+    background: #1fbfff;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        margin-bottom: 20px;
+    }
+}
+
+.modal {
+    --bs-modal-width: 850px;
+}
+
+.nav-link {
+    transition: 0.3s ease;
+    background-color: #181818;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid #181818;
+    border-bottom: 4px solid #181818;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    border-top: 4px solid #0b75cc;
+    border-bottom: 4px solid #0b75cc;
+    padding: 6px 0;
+}
