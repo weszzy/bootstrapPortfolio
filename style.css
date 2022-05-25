@@ -111,3 +111,38 @@ body {
     border-bottom: 4px solid #0b75cc;
     padding: 6px 0;
 }
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    color: #93ddaf;
+    font-size: small;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+div.center {
+    text-align: center;
+}
+
+.bulmatitle {
+    text-align: justify;
+}
+
+img.framed {
+    box-shadow:
+        -50px -50px 0 -40px var(--red),
+        50px 50px 0 -40px var(--red);
+}
