@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daniel Wesley</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://fontawesome.com/search?q=dev&s=solid%2Cbrands" rel="stylesheet">
 </head>
 
 <body>
@@ -26,13 +27,20 @@
             </ul>
         </div>
     </nav>
-
+    <br><br>
     <header>
-        <div class="centralizar">
-            <img src="./photos/profile-pic.png" alt="profile image">
+        <div class="card">
+            <div>
+                <img class="card_img" src="./photos/profile-pic.png" alt="user-image">
+            </div>
+            <div class="card_info">
+                <h2>Daniel Wesley</h2>
+                <h3>QA Tester</h3>
+                <h3>Frontend Dev</h3>
+            </div>
         </div>
-        <h1>Daniel Wesley</h1>
-        <h2>QA Tester</h2>
+
+
     </header>
     <br>
     <main>
@@ -50,50 +58,17 @@
             <h4>Cursos</h4>
             <strong>Basic HTML Fundação Bradesco - 11Hour Workload
             </strong>
-            <button type="button" class="btn btn-xs red" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                Ver Certificado
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="btn btn-xs red" data-bs-dismiss="modal">X</button>
-                        </div>
-                        <div class="modal-body">
-                            <img src="./photos/basichtml.jpeg" alt="" width="700px" height="400">
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-xs red" data-bs-dismiss="modal">X</button>
-                        </div>
-                    </div>
-                </div>
+            <button type="button" class="btn btn-xs red" onclick="myFunction()">Mostrar/Fechar</button>
+            <div id="myDIV">
+                <img src="./photos/basichtml.jpeg" alt="">
             </div>
 
             <p></p>
 
             <strong>Advanced HTML Fundação Bradesco - 6Hour Workload</strong>
-            <button type="button" class="btn btn-xs red" data-bs-toggle="modal" data-bs-target="#exampleModalCenter2">
-                Ver Certificado
-            </button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="btn btn-xs red" data-bs-dismiss="modal">X</button>
-                        </div>
-                        <div class="modal-body">
-                            <img src="./photos/advhtml.jpeg" alt="" width="700px" height="400">
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-xs red" data-bs-dismiss="modal">X</button>
-                        </div>
-                    </div>
-                </div>
+            <button type="button" class="btn btn-xs red" onclick="myFunction2()">Mostrar/Fechar</button>
+            <div id="myDIV2">
+                <img src="./photos/basichtml.jpeg" alt="">
             </div>
         </section>
 
@@ -101,15 +76,15 @@
 
         <footer>
             <a href="https://github.com/weszzy" target="_blank " rel="noopener noreferrer">
-                <img src="./photos/github.svg" alt="github icon">
+                <img class="footer" src="./photos/github.svg" alt="github icon">
                 <p>Github</p>
             </a>
             <a href="https://twitter.com/lnvalido" target="_blank " rel="noopener noreferrer">
-                <img src="./photos/icons8-twitter.svg" alt="twitter icon">
+                <img class="footer" src="./photos/icons8-twitter.svg" alt="twitter icon">
                 <p>Twitter</p>
             </a>
             <a href="https://instagram.com/weszzy" target="_blank " rel="noopener noreferrer">
-                <img src="./photos/icons8-instagram.svg" alt="instagram icon">
+                <img class="footer" src="./photos/icons8-instagram.svg" alt="instagram icon">
                 <p>Instagram</p>
             </a>
         </footer>
@@ -125,6 +100,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
             integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
             crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
