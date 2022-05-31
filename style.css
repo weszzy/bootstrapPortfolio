@@ -13,9 +13,10 @@ h3 {
     font-size: medium;
 }
 
-h4{
+h4 {
     color: #5373af;
 }
+
 body {
     color: white;
     background-color: #181818;
@@ -24,9 +25,9 @@ body {
 
 .btn {
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     color: #fff;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     position: relative;
 }
 
@@ -37,7 +38,7 @@ body {
 .btn:after {
     content: "";
     width: 0;
-    height: 10px;
+    height: 2px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -145,10 +146,34 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-#myDIV2 img{
+
+#myDIV2 img {
     max-width: 100%;
 }
 
-#myDIV img{
+#myDIV img {
     max-width: 100%;
+}
+
+#myDIV3 img {
+    max-width: 100%;
+}
+
+.collapse {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.brad {
+    width: 3.0rem;
+    height: 3.0rem;
+}
+
+.bulmap img {
+    max-width: 100%;
+}
+
+.bulmaproject{
+    padding-left: 135px;
+    padding-right: 40px;
 }
