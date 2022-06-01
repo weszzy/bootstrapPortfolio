@@ -118,6 +118,7 @@ footer p {
     margin-top: 60px;
     margin: auto;
     background: linear-gradient(to right, #5373af, #b7dce4) border-box;
+    padding: 2vh 7vh;
 }
 
 .card_img {
