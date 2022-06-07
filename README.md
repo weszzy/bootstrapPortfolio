@@ -18,9 +18,6 @@ My first portfolio built with bootstrap.
 ## Roadmap
 
 - Added "projects" page
-
-- Replaced Modal with simple toggle (show/hide) (JS function)
-
 - Fixed image reponsiveness 
 - Added "contact" page (formsubmit)
 - Added a "table" on the frontpage
