@@ -22,3 +22,4 @@ My first portfolio built with bootstrap.
 - Added "contact" page (formsubmit)
 - Added a "table" on the frontpage
 - Added a "certificate" carousel on the frontpage
+- Added a career timeline
